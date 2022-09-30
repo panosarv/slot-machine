@@ -3,13 +3,18 @@
 
 body{
     font-family: "VT323",monospace;
-    background-color: rgb(46, 3, 46);
+   
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    
+    background-color: rgb(46, 3, 46);
+    background-image:url("assets/dollar.png");
+    
+    background-repeat:space repeat;
 }
 
 #machine-container{
@@ -23,6 +28,10 @@ body{
 }
 #slotmachine{
     display: flex;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid black 3px;
 }
 
 #wheel{
@@ -58,6 +67,7 @@ body{
     background-color: aliceblue;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .jackpot{
@@ -69,6 +79,10 @@ body{
 }
 
 h1{
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    
     font-style: italic;
     font-size: 100px;
     color: rgb(243, 247, 9);
