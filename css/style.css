@@ -73,6 +73,7 @@ body{
 .jackpot{
     font-size: small;
     color: antiquewhite;
+    -webkit-text-stroke: 4px black;
     visibility:hidden;
     transition: font-size 2s ease;
 

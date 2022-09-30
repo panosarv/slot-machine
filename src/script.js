@@ -23,7 +23,7 @@ spin=function(){
     
     if(checker[0]==checker[1]&&checker[0]==checker[2]){
         jackpot.style.visibility="visible";
-        jackpot.style.fontSize="70px";
+        jackpot.style.fontSize="100px";
         
     }
     else{
